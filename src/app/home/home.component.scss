@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-primary {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+btn-primary:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+.btn-primary {
+  background-color: #50439f;
+
+  /* border-color: #50439f; */
+  background-image: linear-gradient(
+    -225deg,
+    #ff057c 0%,
+    #7c64d5 48%,
+    #4cc3ff 100%
+  );
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #9d97a9;
+}
+
+img {
+  margin-bottom: 0;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+img {
+  border: 0;
+}
+
+.lead {
+  color: rgba(255, 255, 255, 0.808);
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+.bg-light {
+  background-color: #000000 !important;
+  /* background-image: linear-gradient(
+-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%); */
+  /* background-image: linear-gradient(
+-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%); */
+}
+
+.bg-success {
+  /* background-color: #007bff!important; */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  border-radius: 12px;
+}
+
+.bg-primary {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.bg-warning {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.bg-white {
+  background-color: #ffffff1f !important;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.068);
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Alata", sans-serif;
+  color: #ecebf3ce;
+}
+
+.small {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #754ef9;
+  padding: 0 40px;
+  font-size: 11px;
+  line-height: 48px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.541);
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0);
+  background-color: #764ef900;
+  text-transform: uppercase;
+}
+.small:hover {
+  background-color: #fff;
+  color: #754ef9;
+  border-color: #754ef9;
+}
+.main-btn.main-btn-2 {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.main-btn.main-btn-2:hover {
+  background-color: #754ef9;
+  color: #fff;
+  border-color: #754ef9;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 200px;
+}
+
+.col-lg-5,
+.col-lg-7 {
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.img-100 {
+  margin-top: -200px;
+}
