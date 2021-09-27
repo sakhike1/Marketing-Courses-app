@@ -1,6 +1,7 @@
 # UIUXDesigner
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+This project was generated with [Angular ![Capture](https://user-images.githubusercontent.com/51701132/134888055-e23632e2-1f2b-40b9-b377-2ec16f6f47f4.PNG)
+CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
 ## Development server
 
